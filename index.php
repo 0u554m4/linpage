@@ -310,14 +310,14 @@
     /* Badge styles */
     .badge {
       position: absolute;
-      top: 20px;
-      right: 20px;
-      background-color: #f56565;
+      top: 10px;
+      right: -10px;
+      background-color: red;
       color: white;
       padding: 8px 16px;
       border-radius: 30px;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 0.9rem;
       z-index: 10;
     }
     
@@ -390,10 +390,10 @@
     /* Trust badges */
     .trust-badges {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       margin-top: 30px;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 3px;
     }
     
     .trust-badge {
@@ -447,7 +447,7 @@
 </head>
 <body>
   <div class="container mx-auto px-4 py-8">
-<!-- <?php
+<?php
 // الاتصال بقاعدة البيانات
 $host = 'localhost';
 $dbname = 'lin_orders';
@@ -507,7 +507,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
   }
 }
-?> -->
+?>
 
     <div class="relative">
       <div class="badge">PROMO -21%</div>
@@ -599,10 +599,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="mb-6 mt-4">
       <h3 class="text-lg font-semibold mb-2">الالوان:</h3>
       <div class="color-options flex gap-3">
-        <div class="color-option selected" data-slide="0" style="background-color: white; border: 1px solid #ccc;"></div>
-        <div class="color-option" data-slide="1" style="background-color: black;"></div>
-        <div class="color-option" data-slide="2" style="background-color: #c19a6b;"></div>
-        <div class="color-option" data-slide="3" style="background-color: grey;"></div>
+        <div class="color-option selected" data-slide="0" data-color="white" style="background-color: white; border: 1px solid #ccc;"></div>
+        <div class="color-option" data-slide="1" data-color="black" style="background-color: black;"></div>
+        <div class="color-option" data-slide="2" data-color="brown" style="background-color: brown;"></div>
+        <div class="color-option" data-slide="3" data-color="grey" style="background-color: grey;"></div>
       </div>
     </div>
 

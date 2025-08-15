@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'sql101.infinityfree.com');
-define('DB_USER', 'if0_39179758');
-define('DB_PASS', 'BTN9100wf');
-define('DB_NAME', 'if0_39179758_lin_orders');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '1994');
+define('DB_NAME', 'lin_orders');
 
 // Connect to MySQL
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS);
