@@ -2,7 +2,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'lin_orders');
+define('DB_NAME', 'ecommerce_landing_page_01_db');
 
 // Connect to MySQL
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS);
